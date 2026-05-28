@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+
+# Virtualenvs
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+*.key
+secrets.json
+*.pem
+
+# Data and run artefacts
+data/pilot_b0/raw_episodes/
+data/pilot_b0/messages/
+data/pilot_b0/interventions/
+data/pilot_b0/action_logs/
+data/pilot_b0/cache/
+data/pilot_b0/llm_calls.jsonl
+data/pilot_b0/metrics/*.json
+!data/pilot_b0/metrics/.gitkeep
+
+# Per-run figure outputs
+figures/_tmp/
+*.svg.bak
+
+# Logs
+*.log
